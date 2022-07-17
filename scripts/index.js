@@ -1,7 +1,6 @@
 // Get all DOM elements to manipulate
 let timeIn = document.querySelector("#time-in")
 let timeOut = document.querySelector("#time-out")
-const timeTable = document.querySelector('#time-table')
 const appendTimeIn = document.querySelector('#appendTimeIn')
 const appendTimeOut = document.querySelector('#appendTimeOut')
 const appendTotal = document.querySelector('#appendTotalTime')
@@ -30,9 +29,9 @@ const compute = hours => {
     VAT = amount * .12
     VatSales = amount - VAT
 
-    appendAmount.innerHTML = amount
-    appendVAT.innerHTML = VAT
-    appendVatSales.innerHTML = VatSales
+    appendAmount.innerHTML = `PHP ${amount}`
+    appendVAT.innerHTML = `PHP ${VAT}`
+    appendVatSales.innerHTML = `PHP ${VatSales}`
 }
 
 // Convert milliseconds to time respectively
