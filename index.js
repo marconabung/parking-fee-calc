@@ -56,8 +56,8 @@ const getTime = () => {
     let timeNow = new Date()
     
     let year = timeNow.getFullYear()
-    let month = timeNow.getMonth()
-    let day = timeNow.getDay()
+    let month = timeNow.getMonth() + 1 // Plus 1 since the month starts with 0 index which is January
+    let day = timeNow.getDate()
     let hour = timeNow.getHours()
     let minute = timeNow.getMinutes()
     let second = timeNow.getSeconds()
@@ -78,7 +78,7 @@ timeIn.addEventListener('click', _ => {
     } = getTime()
 
     timeIn = timeNow
-    appendTimeIn.innerHTML = (`${year}/${month}/${day}  ${hour}-${minute}-${second}`)
+    appendTimeIn.innerHTML = (`${year}/${month}/${day} ~ ${hour}-${minute}-${second}`)
 
 })
 
@@ -90,7 +90,7 @@ timeOut.addEventListener('click', _ => {
     } = getTime()
     timeOut = timeNow
 
-    appendTimeOut.innerHTML = (`${year}/${month}/${day}  ${hour}-${minute}-${second}`)
+    appendTimeOut.innerHTML = (`${year}/${month}/${day} ~ ${hour}-${minute}-${second}`)
     
     // Get time difference
     difference = Math.abs(timeIn - timeOut)
