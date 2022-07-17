@@ -266,7 +266,7 @@ Lastly, we then need to create a function called `compute()` to finally compute 
 
 ### Here's the full image of the program working.
 
-![Final result image](./assets/result-done.png)
+![Final result image](./assets/results-done.png)
 
 
 ### And there you have it! You just created your own Parking Fee Calculator. Thank you so much for reading!
