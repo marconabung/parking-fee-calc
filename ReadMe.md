@@ -13,6 +13,12 @@ This parking fee calculator project is a Web-Based Program using HTML5, CSS3, an
 * The program shall compute for the VAT-Sales and VAT amount of the total parking fee (VAT=Total Amount × 12%      VatSales=Total Amount -VAT)
 
 
+## Tools and Prerequisits
+* Visual Studio Code
+* HTML 5
+* CSS
+* Javascript
+
 ## Development Process
 
 #### First, create an index.html file and write the html boilerplate as seen below.
