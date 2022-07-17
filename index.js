@@ -93,7 +93,7 @@ timeOut.addEventListener('click', _ => {
     appendTimeOut.innerHTML = (`${year}/${month}/${day} ~ ${hour}-${minute}-${second}`)
     
     // Get time difference
-    difference = Math.abs(timeIn - timeOut)
+    difference = Math.abs(timeOut - timeIn)
 
     convert(difference)
 })
