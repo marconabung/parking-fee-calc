@@ -223,7 +223,7 @@ Then we need to access them and be used by our buttons. To do this, we need to a
         appendTimeOut.innerHTML = (`${year}/${month}/${day}  ${hour}-${minute}-${second}`)
         
         // Get time difference
-        difference = Math.abs(timeIn - timeOut)
+        difference = Math.abs(timeOut - timeIn)
 
         convert(difference)
     })
