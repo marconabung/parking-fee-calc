@@ -269,7 +269,7 @@ Lastly, we then need to create a function called `compute()` to finally compute 
 ![Final result image](./assets/result-done.png)
 
 
-### And there you have it! You just created your own Parking Fee Calculator. Thank you for reading!
+### And there you have it! You just created your own Parking Fee Calculator. Thank you so much for reading!
 
 ## Contact
 

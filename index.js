@@ -40,7 +40,7 @@ const convert = milliseconds => {
     let minutes = Math.floor(seconds / 60)
     
     // If number of hours is 3, get the floor
-    // Proceeding hours will apply fraction of hour ceil
+    // Proceeding hours will apply fraction of hour Math.ceil
     let hours = minutes < 180 ? Math.floor(minutes / 60) : Math.ceil(minutes / 60)
   
     seconds %= 60
